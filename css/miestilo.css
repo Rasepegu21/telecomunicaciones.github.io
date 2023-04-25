@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   
+}
+.nav-barra{
+    color: white;
+    background-color:#000362;
+   
+    width: 100%;
+    list-style-type: none;
+    /*display: flex;
+    flex-wrap: wrap;
+   */
+    
+          }
+.inicio-icono{
+          
+    display: inline-block;
+    margin-left:68%;
+    padding-top: 15px
+    
+             }
+.inicio-icono2{
+          
+  display: inline-block;
+  margin-left:68%;
+  padding-top: 15px;
+  display: none;
+               }
+.inicio{
+    padding: 15px;
+    font-size: 18px;
+    display: inline-block;
+      }
+
+.boton-li{
+    background-color:goldenrod;
+    
+         }
+
+
+ .oculto{
+  display:none;
+  padding: 15px;
+    
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+   
+      }   
+    
+  .foto{
+    
+    width:100%;
+   
+    display:flex;
+    float: left;
+       }
+  .acercade{
+    
+    width:100%;
+    
+    display:flexbox;
+    float: left;
+           }
+  .imagen{
+      
+      
+        height: 450px;
+        
+         }
+         .titulouno{
+          color:#000362;
+          padding-left: 20px;
+          padding-right: 30px;
+          padding-bottom: 10px;
+          font-size:2.5rem;
+          }
+         .parrafo-uno{
+           color:green;
+           padding-left: 20px;
+           font-size:1.3rem;
+          }
+          .demi{
+           background-color:#000399;
+           
+           
+           float: left;
+           
+         }
+         .titulodos{
+           color: white;
+           padding-left: 20px;
+           
+           font-size: 2.5rem;
+           
+          
+           
+         }
+         .parrafo-dos{
+          padding-left: 20px;
+          padding-right: 10px;
+           color: white;
+           font-size: 1.2rem;
+          text-justify: auto;
+           
+           }
+           .imag{
+             height: 300px;
+             padding-left: 20px;
+             
+           }
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+
+.navega-barra:hover{
+    background-color:orangered;
+                    }
+
+@media (min-width:505px) {
+  
+                        .movil{
+                              display: none;
+                              }
+          
+                    .oculto, li{
+                                  display: inline-block;
+                                
+                                  padding-top: 15px;
+                                  padding-bottom: 15px;
+                                  padding-left: 10px; 
+                                  padding-right: 10px;
+                                  font-size: 18px;
+                                  width: auto;
+                    
+                                }
+                                    .titulouno{
+                                      
+                                      font-size:3.5rem;
+                                      padding-top:35%;
+                                      
+                                      }
+                                      .titulodos{
+                                        color: white;
+                                        padding-left: 40px;
+                                        
+                                        font-size: 2.5rem;
+                                       
+                                        
+                                      }
+                                      .parrafo-uno{
+                                        color:green;
+                                        padding-right: 40px;
+                                       font-size: 1.5rem;
+                                      
+                                       }
+                                    .parrafo-dos{
+                                      padding-left:40px;
+                                      color: white;
+                                      }
+
+                                    .nav-barra{
+                                      height: auto;
+                                            }
+                                    .inicio{
+                                      display:none;
+                                          }
+                                    .foto{
+                                      width:50%;
+                                      height: 700px;
+                                      
+                                      
+                                      }
+                                  .acercade{
+                                    height: 700px;
+                                    width:50%;
+                                  
+                                    display:flexbox;
+                                    float: left;
+                                    
+                                        }
+                                  .imagen{
+                                    padding-left: 20%;
+                                    padding-top:6% ; 
+                                    height: 700px;;
+                                      }
+                                      .demi{
+                                        background-color:#000399;
+                                        
+                                        height: 400px;
+                                        
+                                        
+                                      }
+                                      .imag{
+                                        height: 300px;
+                                        padding-right:50px;
+                                        padding-top:20px ;
+                                        float:right; 
+                                      }
+                                      
+                          } 
+
+ul{
+  list-style-type: none;
+  }
+
+
+
+.boton-accion{
+   background-color:goldenrod;
+   margin-left: 20px;
+   height: 40px;
+   padding: 5px;
+   width: 100px;
+   border:3px ;
+   border-color: ;
+   font-size:15px;
+   color: #000362;
+   margin-bottom: 10px;
+}
